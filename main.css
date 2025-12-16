@@ -1,3 +1,6 @@
 .aside {
+  float: left;
+  height: 100vh;
   background: black; 
+  width: 25%;
 }
