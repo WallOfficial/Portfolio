@@ -1,3 +1,6 @@
-h {
+aside {
   background: black;
+  color: white;
+  margin-left: auto;
+  max-width: 300px;
 }
