@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="zip/dist/jszip.js"></script>
+
+
+</head>
+<body>
+    <div class="leftaside" id="leftaside">
+
+        <h2>WallWebConstructor</h2>
+        <h1>Навигация</h1>
+
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="help.html">Помощь</a></li>
+            <li>Создать сайт</li>
+
+    </div>
+
+    <div class="topaside">
+          <button onclick="asideVisibl()">|||</button>
+    </div>
+
+    <div class="page">
+
+        <form method="POST" id="siteSettings">
+
+            <label for="name">Название сайта (ENTER что бы сбросить)</label>
+            <input type="text" id="name" placeholder="Название сайта" name="siteName">
+
+            <label for="template"><br><br>Выберите шаблон сайта</label>
+            <select name="template" id="template">
+                <option value="portfolio">Портфолио</option>
+                <option value="another">Без шаблона</option>
+            </select>
+
+            <p><br>Тема сайта<br></p>
+            <input type="radio" id="litetopic" value="white" name="sitetopic">
+            <label for="litetopic">Светлая тема</label>
+
+            <input type="radio" id="darktopic" value="black" name="sitetopic">
+            <label for="darktopic">Темная тема</label>
+
+            <h1>Создание сайта</h1>
+
+            <input type="text" id="title" name="title1">
+            <label for="title">Введите заголовок 1<br></label>
+
+            <input type="text" id="text" name="text1">
+            <label for="text">Введите текст под заголовком<br><br></label>
+
+            <input type="text" id="title2"  name="title2">
+            <label for="title2">Введите заголовок 2<br></label>
+
+            <input type="text" id="text2" name="text2">
+            <label for="text2">Введите текст под заголовком<br><br></label>
+
+            <input type="text" id="title3"  name="title3">
+            <label for="title3">Введите заголовок 3<br></label>
+
+            <input type="text" id="text3" name="text3">
+            <label for="text3">Введите текст под заголовком<br><br></label>
+
+            <input type="text" id="title4"  name="title4">
+            <label for="title4">Введите заголовок 4<br></label>
+
+            <input type="text" id="text4" name="text4">
+            <label for="text4">Введите текст под заголовком<br><br></label>
+
+            <input type="text" id="title5" name="title5">
+            <label for="title5">Введите заголовок 5<br></label>
+
+            <input type="text" id="text5" name="text5">
+            <label for="text5">Введите текст под заголовком<br><br></label>
+
+        </form>
+
+        <button onclick="createSite()">Создать</button>
+
+    </div>
+
+    <script src="js/main.js">
+    </script>
+</body>
+</html>
+
+
